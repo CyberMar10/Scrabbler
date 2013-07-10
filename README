@@ -1,0 +1,21 @@
+Scrabbler
+=========
+
+Scrabbler is a small script written in Python3 to help Scrabble players "cheat" on the game ! 
+
+Given an input of a letters, Scrabbler will output an array of possible words with their Scrabble score.
+
+Example :
+    >Enter your letters (MAX=10) : EKQWXZ
+    >Your letters :  EKQWXZ 
+    >Results :
+    >WE...............5
+    >EX...............9
+    >EWK...............10
+    >WEX...............13
+    >KEX...............14
+    >ZEK...............16
+    >ZEX...............19
+
+The list of words is taken from the SOWPODS official Scrabble wordlist: http://courses.cms.caltech.edu/cs11/material/advjava/lab1/sowpods.zip
+
