@@ -40,8 +40,7 @@ class Scrass:
 	def LettersInWord(self, word, letlist):
 		""" Input : A word and a list of letters; will verify if all the
 		letters in the word are part of the list """
-		# Don't know if there is a better way to do so :/
-		# For Alpha : no support for multiple same letter in list :/ Sorry
+		# Don't know if there is a better way to do so :/  # lint:ok
 		self.pos = 0
 		self.temp_list = list(letlist)
 		# Almost forgot that : little verification on the size !
